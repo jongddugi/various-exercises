@@ -15,7 +15,6 @@ class Person:
     def __init__(self, name, age):
         self._name = name
         self._age = age
-
     @property # 추가됨
     def age(self):
         return self._age
